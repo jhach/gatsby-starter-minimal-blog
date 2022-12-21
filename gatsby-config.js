@@ -40,10 +40,11 @@ module.exports = {
             name: `LinkedIn`,
             url: `https://www.linkedin.com/in/jameshach`,
           },
+          /*
           {
             name: `Homepage`,
             url: `https://jhach.netlify.app`,
-          },
+          },*/
         ],
       },
     },
