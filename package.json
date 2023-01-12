@@ -27,6 +27,7 @@
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.30",
     "mdx-embed": "^1.1.2",
     "react": "^18.2.0",
+    "react-cookie-consent": "^8.0.1",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
