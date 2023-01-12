@@ -1010,7 +1010,7 @@
     core-js-pure "^3.25.1"
     regenerator-runtime "^0.13.10"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.18.9", "@babel/runtime@^7.19.4", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.18.9", "@babel/runtime@^7.19.4", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.20.1"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.20.1.tgz"
   integrity sha512-mrzLkl6U9YLF8qpqI7TB82PESyEGjm/0Ly91jG575eVxMMlb8fYfOXFZIJ8XfLrJZQbm7dlKry2bJmXBUEkdFg==
@@ -5646,6 +5646,13 @@ gatsby-plugin-feed@^5.0.0:
     gatsby-plugin-utils "^4.2.0"
     lodash.merge "^4.6.2"
     rss "^1.2.2"
+
+gatsby-plugin-gdpr-cookies@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.npmjs.org/gatsby-plugin-gdpr-cookies/-/gatsby-plugin-gdpr-cookies-2.0.9.tgz"
+  integrity sha512-rU4O5oJ+ace0B6D4CG6dG5oOLYRQT3LEb+I5XjCieYVkk1KB0QgqhzsgkV8K6JO18EOExE0Y4HyHQHj3hF6uGg==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
 
 gatsby-plugin-google-gtag@^5.0.0:
   version "5.2.0"
