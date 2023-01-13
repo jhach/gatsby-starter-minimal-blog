@@ -48,11 +48,10 @@ const Layout = ({ children, className = `` }: LayoutProps) => (
     <CookieConsent
           location="bottom"
           buttonText="Accept"
-          enableDeclineButton={true}
           declineButtonText="Decline"
           cookieName="gatsby-gdpr-google-analytics"
-          debug={true}>  
-    This website stores cookies on your computer. 
+          enableDeclineButton={true}>
+      This website uses cookies to enhance the user experience.{" "}
     </CookieConsent>
       <Header />
       <Box id="skip-nav" as="main" variant="layout.main" sx={{ ...CodeStyles }} className={className}>
